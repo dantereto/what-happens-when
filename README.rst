@@ -571,6 +571,9 @@ The components of the browsers are:
   support storage mechanisms such as localStorage, IndexedDB, WebSQL and
   FileSystem.
 
+It is important to note that browsers such as Chrome run multiple instances 
+of the rendering engine: one for each tab. Each tab runs in a separate process.
+
 HTML parsing
 ------------
 
